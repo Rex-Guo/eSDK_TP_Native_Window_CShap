@@ -1,0 +1,14 @@
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\TP_Native_Demo.eSDK_TP_Native_Demo.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.Properties.Resources.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.csproj.GenerateResource.Cache
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDK_TP_Native_Login_Demo.exe.config
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDK_TP_Native_Login_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDK_TP_Native_Login_Demo.pdb
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDKLog4Net.dll
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDKLog4Net.xml
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.csprojResolveAssemblyReference.cache
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.pdb
+C:\Users\dWX352376\Desktop\eSDK_TP_Native_Window_CShap\sample\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\bin\Release\eSDK_TP_Native_Login_Demo.exe.config
+C:\Users\dWX352376\Desktop\eSDK_TP_Native_Window_CShap\sample\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.exe
+C:\Users\dWX352376\Desktop\eSDK_TP_Native_Window_CShap\sample\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_Login_Demo\obj\Release\eSDK_TP_Native_Login_Demo.pdb

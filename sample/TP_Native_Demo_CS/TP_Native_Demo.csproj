@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAC24434-6CEE-414A-BD13-122128DDEBED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TP_Native_Demo</RootNamespace>
+    <AssemblyName>TP_Native_Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="esdk_tp_native_professional_cs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\esdk_tp_native_professional_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParameterForms\AdhocConfParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\AdhocConfParameters.Designer.cs">
+      <DependentUpon>AdhocConfParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\CameraControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\CameraControl.Designer.cs">
+      <DependentUpon>CameraControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\CDRQueryConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\CDRQueryConfig.Designer.cs">
+      <DependentUpon>CDRQueryConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\ConferenceParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\ConferenceParameters.Designer.cs">
+      <DependentUpon>ConferenceParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\Confid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\Confid.Designer.cs">
+      <DependentUpon>Confid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\DeleteSitesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\DeleteSitesList.Designer.cs">
+      <DependentUpon>DeleteSitesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\EnablePush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\EnablePush.Designer.cs">
+      <DependentUpon>EnablePush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\GetContinousPresence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\GetContinousPresence.Designer.cs">
+      <DependentUpon>GetContinousPresence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\HelpHandler.cs" />
+    <Compile Include="ParameterForms\LoginParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\LoginParameters.Designer.cs">
+      <DependentUpon>LoginParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\MCUFutureResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\MCUFutureResource.Designer.cs">
+      <DependentUpon>MCUFutureResource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\ProlongConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\ProlongConference.Designer.cs">
+      <DependentUpon>ProlongConference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\QueryConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\QueryConfig.Designer.cs">
+      <DependentUpon>QueryConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\ConfidAndSiteURI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\ConfidAndSiteURI.Designer.cs">
+      <DependentUpon>ConfidAndSiteURI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetAudioSwitch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetAudioSwitch.Designer.cs">
+      <DependentUpon>SetAudioSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetBroadcastSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetBroadcastSite.Designer.cs">
+      <DependentUpon>SetBroadcastSite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetConfSiteVolume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetConfSiteVolume.Designer.cs">
+      <DependentUpon>SetConfSiteVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetContinuousPresence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetContinuousPresence.Designer.cs">
+      <DependentUpon>SetContinuousPresence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetSitesQuietOrMute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetSitesQuietOrMute.Designer.cs">
+      <DependentUpon>SetSitesQuietOrMute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SetVideoSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SetVideoSource.Designer.cs">
+      <DependentUpon>SetVideoSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SiteAndBroad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SiteAndBroad.Designer.cs">
+      <DependentUpon>SiteAndBroad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SiteForConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SiteForConference.Designer.cs">
+      <DependentUpon>SiteForConference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SiteInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SiteInfo.Designer.cs">
+      <DependentUpon>SiteInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SitesForConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SitesForConference.Designer.cs">
+      <DependentUpon>SitesForConference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SiteStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SiteStatus.Designer.cs">
+      <DependentUpon>SiteStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\SiteURI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\SiteURI.Designer.cs">
+      <DependentUpon>SiteURI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForms\Subscribe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForms\Subscribe.Designer.cs">
+      <DependentUpon>Subscribe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TP_Native_Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TP_Native_Demo.Designer.cs">
+      <DependentUpon>TP_Native_Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ParameterForms\AdhocConfParameters.resx">
+      <DependentUpon>AdhocConfParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\CameraControl.resx">
+      <DependentUpon>CameraControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\CDRQueryConfig.resx">
+      <DependentUpon>CDRQueryConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\ConferenceParameters.resx">
+      <DependentUpon>ConferenceParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\Confid.resx">
+      <DependentUpon>Confid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\DeleteSitesList.resx">
+      <DependentUpon>DeleteSitesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\EnablePush.resx">
+      <DependentUpon>EnablePush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\GetContinousPresence.resx">
+      <DependentUpon>GetContinousPresence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\LoginParameters.resx">
+      <DependentUpon>LoginParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\MCUFutureResource.resx">
+      <DependentUpon>MCUFutureResource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\ProlongConference.resx">
+      <DependentUpon>ProlongConference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\QueryConfig.resx">
+      <DependentUpon>QueryConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\ConfidAndSiteURI.resx">
+      <DependentUpon>ConfidAndSiteURI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetAudioSwitch.resx">
+      <DependentUpon>SetAudioSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetBroadcastSite.resx">
+      <DependentUpon>SetBroadcastSite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetConfSiteVolume.resx">
+      <DependentUpon>SetConfSiteVolume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetContinuousPresence.resx">
+      <DependentUpon>SetContinuousPresence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetSitesQuietOrMute.resx">
+      <DependentUpon>SetSitesQuietOrMute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SetVideoSource.resx">
+      <DependentUpon>SetVideoSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SiteAndBroad.resx">
+      <DependentUpon>SiteAndBroad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SiteForConference.resx">
+      <DependentUpon>SiteForConference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SiteInfo.resx">
+      <DependentUpon>SiteInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SitesForConference.resx">
+      <DependentUpon>SitesForConference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SiteStatus.resx">
+      <DependentUpon>SiteStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\SiteURI.resx">
+      <DependentUpon>SiteURI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForms\Subscribe.resx">
+      <DependentUpon>Subscribe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TP_Native_Demo.resx">
+      <DependentUpon>TP_Native_Demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

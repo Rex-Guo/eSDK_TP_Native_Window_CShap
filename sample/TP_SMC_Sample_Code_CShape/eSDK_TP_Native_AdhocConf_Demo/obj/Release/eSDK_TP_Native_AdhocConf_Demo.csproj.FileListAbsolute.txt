@@ -1,0 +1,11 @@
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\Adhoc会议模板预约会议.Adhoc.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\eSDK_TP_Native_AdhocConf_Demo.Properties.Resources.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\eSDK_TP_Native_AdhocConf_Demo.csproj.GenerateResource.Cache
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\bin\Release\eSDK_TP_Native_AdhocConf_Demo.exe.config
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\bin\Release\eSDK_TP_Native_AdhocConf_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\bin\Release\eSDK_TP_Native_AdhocConf_Demo.pdb
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\bin\Release\eSDKLog4Net.dll
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\bin\Release\eSDKLog4Net.xml
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\eSDK_TP_Native_AdhocConf_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\eSDK_TP_Native_AdhocConf_Demo.pdb
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_AdhocConf_Demo\obj\Release\eSDK_TP_Native_AdhocConf_Demo.csprojResolveAssemblyReference.cache

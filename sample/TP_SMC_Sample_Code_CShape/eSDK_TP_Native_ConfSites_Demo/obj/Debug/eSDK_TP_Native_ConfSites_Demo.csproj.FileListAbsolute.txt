@@ -1,0 +1,12 @@
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\eSDK_TP_Native_ConfSites_Demo.csprojResolveAssemblyReference.cache
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\会议中会场操作Demo.Conference_Sites.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\eSDK_TP_Native_ConfSites_Demo.Properties.Resources.resources
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\eSDK_TP_Native_ConfSites_Demo.csproj.GenerateResource.Cache
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\eSDK_TP_Native_ConfSites_Demo.exe.config
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\eSDK_TP_Native_ConfSites_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\eSDK_TP_Native_ConfSites_Demo.pdb
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\esdk_tp_native_professional_cs.dll
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\eSDKLog4Net.dll
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\bin\Debug\eSDKLog4Net.xml
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\eSDK_TP_Native_ConfSites_Demo.exe
+D:\Client_TP\test\demo\TP_SMC_Sample_Code_CShape\eSDK_TP_Native_ConfSites_Demo\obj\Debug\eSDK_TP_Native_ConfSites_Demo.pdb
